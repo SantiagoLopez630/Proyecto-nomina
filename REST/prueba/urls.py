@@ -10,6 +10,5 @@ router.register(r'usuariorest',views.UsuarioViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
-    path('admin/', admin.site.urls),
     path('docs/',include_docs_urls(title='doc'))
 ]

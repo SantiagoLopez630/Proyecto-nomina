@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'nomina.apps.NominaConfig',
     'prueba.apps.PruebaConfig',
     'django.contrib.admin',
     'django.contrib.auth',
