@@ -1,10 +1,8 @@
-from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
 from rest_framework.documentation import include_docs_urls
 from nomina import views as empleados_views 
 
-# Definir el router para las vistas de empleados
 router = routers.DefaultRouter()
 router.register(r'empleados', empleados_views.EmpleadoViewSet)
 
